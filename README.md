@@ -33,7 +33,7 @@ Here are the query parameters you can specify to the API endpoint:
 | ecLevel         | string               | 'L', 'M', 'Q', 'H'                                       | 'M'     | No       |
 | quietZone       | number               | 0 - 100,000                                              | 1       | No       |
 | bgColor         | string               | Hex color                                                | '#fff'  | No       |
-| fgColor         | string               | Hex color.                                               | '#000'  | No       |
+| fgColor         | string               | Hex color                                                | '#000'  | No       |
 | logoImage       | string               | Image URL                                                | null    | No       |
 | logoWidth       | number               | 0 - 100,000                                              | 300     | No       |
 | logoHeight      | number               | 0 - 100,000                                              | 300     | No       |
