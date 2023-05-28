@@ -32,9 +32,9 @@ Here are the query parameters you can specify to the API endpoint:
 | size            | number               | 0 - 100,000                                              | 600     | No       |
 | ecLevel         | string               | 'L', 'M', 'Q', 'H'                                       | 'M'     | No       |
 | quietZone       | number               | 0 - 100,000                                              | 1       | No       |
-| bgColor         | string               | Valid Hex Color String (4-9 characters, starts with '#') | '#fff'  | No       |
-| fgColor         | string               | Valid Hex Color String (4-9 characters, starts with '#') | '#000'  | No       |
-| logoImage       | string (URL) or null | -                                                        | null    | No       |
+| bgColor         | string               | Hex color                                                | '#fff'  | No       |
+| fgColor         | string               | Hex color.                                               | '#000'  | No       |
+| logoImage       | string               | Image URL                                                | null    | No       |
 | logoWidth       | number               | 0 - 100,000                                              | 300     | No       |
 | logoHeight      | number               | 0 - 100,000                                              | 300     | No       |
 | logoOpacity     | number               | 0 - 100                                                  | 100     | No       |
