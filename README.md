@@ -6,7 +6,7 @@ This template offers a straightforward solution for generating customizable, dyn
 
 This API is an ideal starting point for anyone seeking a quick, ready-to-use solution for incorporating dynamic QR codes into their projects.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/jmcmullen/qr-codes/api&project-name=qr-codes-api&repository-name=qr-codes-api)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/jmcmullen/qr-kit&project-name=qr-codes-api&repository-name=qr-kit)
 
 ## Usage
 
