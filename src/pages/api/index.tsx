@@ -1,4 +1,4 @@
-import { NextRequest } from 'next/server';
+import { type NextRequest } from 'next/server';
 import { ImageResponse } from '@vercel/og';
 import { getQrCodeBase64, getSearchValues } from '~/utils/helpers';
 import { schema } from '~/utils/schema';
@@ -27,7 +27,7 @@ export default async function handler(req: NextRequest) {
 
   const logoX = size / 2 - logoWidth / 2;
   const logoY = size / 2 - logoHeight / 2;
-  const data = getQrCodeBase64({
+  const data = await getQrCodeBase64({
     value,
     ecLevel,
     quietZone,
