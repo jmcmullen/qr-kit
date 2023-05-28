@@ -4,7 +4,7 @@ This template enables the creation of QR codes at the edge for quick response ti
 
 ## Deploy your own
 
-This API is an ideal starting point for anyone seeking a quick, ready-to-use solution for incorporating QR codes into their Next.js project.
+This project is an ideal starting point for anyone seeking a quick, ready-to-use solution for incorporating QR codes into their Next.js project.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/jmcmullen/qr-kit&project-name=qr-codes-api&repository-name=qr-kit)
 
