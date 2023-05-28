@@ -35,5 +35,9 @@ GET request, all parameters are read from the URL query.
 Here's a sample request:
 
 ```
-https://api.example.com/endpoint?value=Hello%20world&size=800&ecLevel=Q&quietZone=2&bgColor=%23abcdef&fgColor=%23123456&logoImage=https%3A%2F%2Fexample.com%2Flogo.png&logoWidth=400&logoHeight=400&logoOpacity=80&logoRemoveBg=true
+https://qr-kit.vercel.app/api?value=https://github.com/jmcmullen/qr-kit&size=200&ecLevel=H&logoImage=https://qr-kit.vercel.app/sash.svg&logoHeight=80&logoWidth=80
 ```
+
+Result:
+
+![](https://qr-kit.vercel.app/api?value=https://github.com/jmcmullen/qr-kit&size=200&ecLevel=H&logoImage=https://qr-kit.vercel.app/sash.svg&logoHeight=80&logoWidth=80)
