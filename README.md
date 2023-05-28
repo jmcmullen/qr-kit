@@ -8,6 +8,20 @@ This API is an ideal starting point for anyone seeking a quick, ready-to-use sol
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/jmcmullen/qr-codes/api&project-name=qr-codes-api&repository-name=qr-codes-api)
 
+## Usage
+
+GET request, all parameters are read from the URL query.
+
+Here's a sample request:
+
+```
+https://qr-kit.vercel.app/api?value=https://github.com/jmcmullen/qr-kit&size=200&ecLevel=H&logoImage=https://qr-kit.vercel.app/sash.svg&logoHeight=80&logoWidth=80
+```
+
+Result:
+
+![](https://qr-kit.vercel.app/api?value=https://github.com/jmcmullen/qr-kit&size=200&ecLevel=H&logoImage=https://qr-kit.vercel.app/sash.svg&logoHeight=80&logoWidth=80)
+
 ## Options
 
 Here are the query parameters you can specify to the API endpoint:
@@ -25,19 +39,3 @@ Here are the query parameters you can specify to the API endpoint:
 | logoHeight      | number               | 0 - 100,000                                              | 300     | No       |
 | logoOpacity     | number               | 0 - 100                                                  | 100     | No       |
 | logoRemoveBg    | boolean              | true, false                                              | false   | No       |
-
-Please ensure to pass the parameters correctly to avoid validation errors.
-
-## Usage
-
-GET request, all parameters are read from the URL query.
-
-Here's a sample request:
-
-```
-https://qr-kit.vercel.app/api?value=https://github.com/jmcmullen/qr-kit&size=200&ecLevel=H&logoImage=https://qr-kit.vercel.app/sash.svg&logoHeight=80&logoWidth=80
-```
-
-Result:
-
-![](https://qr-kit.vercel.app/api?value=https://github.com/jmcmullen/qr-kit&size=200&ecLevel=H&logoImage=https://qr-kit.vercel.app/sash.svg&logoHeight=80&logoWidth=80)
