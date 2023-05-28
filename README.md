@@ -1,6 +1,6 @@
-# QR Code API
+# QR Kit
 
-This template offers a straightforward solution for generating customizable, dynamic QR codes. It's designed for seamless integration into websites, emails, and more.
+This template enables the creation of QR codes at the edge for quick response times and low latency. It can be easily integrated into various digital platforms like websites and emails.
 
 ## Deploy your own
 
